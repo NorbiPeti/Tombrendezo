@@ -64,7 +64,7 @@ namespace Tömbrendező
             NumUpdowns.ForEach(numupdown => numupdown.ReadOnly = true);
             countNumUpDown.ReadOnly = true;
 
-            HighlightCode("int i = NumUpdowns.Count - 1;");
+            HighlightCode("int i = T.Length - 1;");
             int i = NumUpdowns.Count - 1;
             labeli.Text = i.ToString();
             labeli.ForeColor = Color.Red;
