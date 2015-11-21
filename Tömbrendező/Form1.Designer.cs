@@ -39,14 +39,15 @@
             this.pausebtn = new System.Windows.Forms.Button();
             this.resumebtn = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.labeli = new System.Windows.Forms.Label();
-            this.labelcs = new System.Windows.Forms.Label();
-            this.labelj = new System.Windows.Forms.Label();
             this.labelcsere = new System.Windows.Forms.Label();
+            this.labelj = new System.Windows.Forms.Label();
+            this.labelcs = new System.Windows.Forms.Label();
+            this.labeli = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.stepbtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.countNumUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
@@ -158,7 +159,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 46.55172F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 53.44828F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 49F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 56F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 57F));
             this.tableLayoutPanel1.Controls.Add(this.labelcsere, 3, 1);
             this.tableLayoutPanel1.Controls.Add(this.labelj, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.labelcs, 1, 1);
@@ -176,41 +177,29 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(200, 79);
             this.tableLayoutPanel1.TabIndex = 9;
             // 
-            // label4
+            // labelcsere
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(9, 13);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "i";
+            this.labelcsere.AutoSize = true;
+            this.labelcsere.Location = new System.Drawing.Point(145, 39);
+            this.labelcsere.Name = "labelcsere";
+            this.labelcsere.Size = new System.Drawing.Size(0, 13);
+            this.labelcsere.TabIndex = 10;
             // 
-            // label5
+            // labelj
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(47, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(18, 13);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "cs";
+            this.labelj.AutoSize = true;
+            this.labelj.Location = new System.Drawing.Point(96, 39);
+            this.labelj.Name = "labelj";
+            this.labelj.Size = new System.Drawing.Size(0, 13);
+            this.labelj.TabIndex = 10;
             // 
-            // label6
+            // labelcs
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(97, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(9, 13);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "j";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(146, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(33, 13);
-            this.label7.TabIndex = 10;
-            this.label7.Text = "csere";
+            this.labelcs.AutoSize = true;
+            this.labelcs.Location = new System.Drawing.Point(46, 39);
+            this.labelcs.Name = "labelcs";
+            this.labelcs.Size = new System.Drawing.Size(0, 13);
+            this.labelcs.TabIndex = 10;
             // 
             // labeli
             // 
@@ -220,35 +209,59 @@
             this.labeli.Size = new System.Drawing.Size(0, 13);
             this.labeli.TabIndex = 10;
             // 
-            // labelcs
+            // label7
             // 
-            this.labelcs.AutoSize = true;
-            this.labelcs.Location = new System.Drawing.Point(47, 39);
-            this.labelcs.Name = "labelcs";
-            this.labelcs.Size = new System.Drawing.Size(0, 13);
-            this.labelcs.TabIndex = 10;
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(145, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(33, 13);
+            this.label7.TabIndex = 10;
+            this.label7.Text = "csere";
             // 
-            // labelj
+            // label6
             // 
-            this.labelj.AutoSize = true;
-            this.labelj.Location = new System.Drawing.Point(97, 39);
-            this.labelj.Name = "labelj";
-            this.labelj.Size = new System.Drawing.Size(0, 13);
-            this.labelj.TabIndex = 10;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(96, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(9, 13);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "j";
             // 
-            // labelcsere
+            // label5
             // 
-            this.labelcsere.AutoSize = true;
-            this.labelcsere.Location = new System.Drawing.Point(146, 39);
-            this.labelcsere.Name = "labelcsere";
-            this.labelcsere.Size = new System.Drawing.Size(0, 13);
-            this.labelcsere.TabIndex = 10;
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(46, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(18, 13);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "cs";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(3, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(9, 13);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "i";
+            // 
+            // stepbtn
+            // 
+            this.stepbtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.stepbtn.Location = new System.Drawing.Point(263, 493);
+            this.stepbtn.Name = "stepbtn";
+            this.stepbtn.Size = new System.Drawing.Size(75, 23);
+            this.stepbtn.TabIndex = 10;
+            this.stepbtn.Text = "Léptetés";
+            this.stepbtn.UseVisualStyleBackColor = true;
+            this.stepbtn.Click += new System.EventHandler(this.stepbtn_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(840, 528);
+            this.Controls.Add(this.stepbtn);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.resumebtn);
             this.Controls.Add(this.pausebtn);
@@ -290,6 +303,7 @@
         private System.Windows.Forms.Label labelj;
         private System.Windows.Forms.Label labelcs;
         private System.Windows.Forms.Label labeli;
+        private System.Windows.Forms.Button stepbtn;
     }
 }
 

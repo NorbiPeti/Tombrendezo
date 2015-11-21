@@ -205,7 +205,38 @@ namespace Tömbrendező
 
         private void resumebtn_Click(object sender, EventArgs e)
         {
-            Timer.Start();
+            if (Enum != null)
+                Timer.Start();
+        }
+
+        private Timer StepTimer;
+        private int StepTimerCount;
+        private void stepbtn_Click(object sender, EventArgs e)
+        {
+            if (StepTimer == null)
+            {
+                StepTimer = new Timer();
+                StepTimer.Tick += delegate
+                  {
+                      if (!Enum.MoveNext())
+                      {
+                          startbtn.Enabled = true;
+                          Enum = null;
+                          StepTimer.Stop();
+                      }
+                      StepTimerCount++;
+                      if (StepTimerCount >= 10)
+                          StepTimer.Stop();
+                  };
+            }
+            if (StepTimer.Enabled)
+                return;
+            StepTimerCount = 0;
+            StepTimer.Interval = Timer.Interval;
+            if (Enum == null)
+                Enum = Rendezés().GetEnumerator();
+            startbtn.Enabled = false;
+            StepTimer.Start();
         }
     }
 }
