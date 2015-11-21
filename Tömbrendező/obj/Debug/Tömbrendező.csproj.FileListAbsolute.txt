@@ -1,0 +1,9 @@
+D:\Z - Norbi cucca\0 Projektek\Tömbrendező\Tömbrendező\bin\Debug\Tömbrendező.exe.config
+D:\Z - Norbi cucca\0 Projektek\Tömbrendező\Tömbrendező\bin\Debug\Tömbrendező.exe
+D:\Z - Norbi cucca\0 Projektek\Tömbrendező\Tömbrendező\bin\Debug\Tömbrendező.pdb
+D:\Z - Norbi cucca\0 Projektek\Tömbrendező\Tömbrendező\obj\Debug\Tömbrendező.csprojResolveAssemblyReference.cache
+D:\Z - Norbi cucca\0 Projektek\Tömbrendező\Tömbrendező\obj\Debug\Tömbrendező.Form1.resources
+D:\Z - Norbi cucca\0 Projektek\Tömbrendező\Tömbrendező\obj\Debug\Tömbrendező.Properties.Resources.resources
+D:\Z - Norbi cucca\0 Projektek\Tömbrendező\Tömbrendező\obj\Debug\Tömbrendező.csproj.GenerateResource.Cache
+D:\Z - Norbi cucca\0 Projektek\Tömbrendező\Tömbrendező\obj\Debug\Tömbrendező.exe
+D:\Z - Norbi cucca\0 Projektek\Tömbrendező\Tömbrendező\obj\Debug\Tömbrendező.pdb
